@@ -142,6 +142,10 @@ header .contenedor-texto .texto h1 .profesion{
     justify-content: space-between;
 }
 
+.main .trabajos .contenedor-trabajos, a{
+    text-decoration: none;
+}
+
 .main .trabajos .contenedor-trabajos .trabajo{
     width: 23%;
     margin-bottom: 40px;
@@ -259,10 +263,10 @@ footer .redes-sociales a{
     margin: 0 20px;
 }
 
-footer .redes-sociales .twitter:hover{background: #1da1f2;}
 footer .redes-sociales .facebook:hover{background: #3b5998;}
-footer .redes-sociales .youtube:hover{background: #ff0000;}
+footer .redes-sociales .github:hover{background: gray;}
 footer .redes-sociales .instagram:hover{background: #c13584;}
+footer .redes-sociales .youtube:hover{background: red;}
 footer .redes-sociales .whatsapp:hover{background: #25d366;}
 
 @media screen and (max-width:800px){
